@@ -1,6 +1,7 @@
 #![cfg_attr(docsrs, feature(doc_cfg))]
 //! Generated code for Apache Arrow IPC and flight specifictions.
 
+#[allow(clippy::doc_lazy_continuation)]
 #[cfg(feature = "ipc")]
 #[cfg_attr(docsrs, doc(cfg(feature = "ipc")))]
 pub mod ipc;
